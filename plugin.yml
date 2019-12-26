@@ -1,0 +1,15 @@
+name: PlayerCrasher
+version: 1.0
+author: SkyZoneMC
+api: 3.0.0
+main: PlayerCrasher\Main
+description: Crash a player with /crash
+commands:
+  crash:
+    description: Crash a player
+    usage: /crash <player>
+    permission: playercrasher.crash
+  crashall:
+    description: Crash all players except you
+    usage: /crashall
+    permission: playercrasher.crashall
